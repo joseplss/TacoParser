@@ -45,7 +45,7 @@
             tacoBell.Location = point;
             // Then, return the instance of your TacoBell class
             // Since it conforms to ITrackable
-
+            logger.LogInfo($"Finished parsing location {tacoBell.Name}");
             return tacoBell;
         }
     }
